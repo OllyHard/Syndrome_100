@@ -60,10 +60,22 @@
                         <configuration>
                             <rules>
                                 <rule>
+                                    <!--   <element>CLASS</element>
+                                    <excludes>
+                                        <exclude>*Test</exclude>
+                                    </excludes>
+                                    <limits>
+                                      <limit>
+                                        <counter>LINE</counter>
+                                        <value>COVEREDRATIO</value>
+                                        <minimum>100%</minimum>
+                                    </limit>-->
                                     <element>BUNDLE</element>
                                     <limits>
                                         <limit>
                                             <counter>INSTRUCTION</counter>
+                                            <!--    <counter>BRANCH</counter>-->
+                                            <!--    <counter>COMPLEXITY</counter>-->
                                             <value>COVEREDRATIO</value>
                                             <minimum>1</minimum>
                                         </limit>
@@ -71,7 +83,7 @@
                                             <counter>CLASS</counter>
                                             <value>MISSEDCOUNT</value>
                                             <maximum>0</maximum>
-                                        </limit>
+                                    </limit>-->
                                     </limits>
                                 </rule>
                             </rules>
