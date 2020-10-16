@@ -39,14 +39,14 @@
                 <version>0.8.5</version>
                 <executions>
                     <execution>
-                        <id>prepare-agent</id>
+                        <id>prepare-agent-zxc</id>
                         <!--  <phase>initialize</phase>-->
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>report</id>
+                        <id>report-zxc2</id>
                         <!--   <phase>verify</phase>-->
                         <goals>
                             <goal>report</goal>
